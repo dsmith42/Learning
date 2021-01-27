@@ -47,7 +47,11 @@ struct EditItemView: View {
       }
     }
     .navigationTitle("Edit Item")
-    .onDisappear(perform: update)
+    // SwiftUI way of updating before the view disappear
+    .onChange(of: title) { _ in update() }
+    .onChange(of: detail) { _ in update() }
+    .onChange(of: priority) { _ in update() }
+    .onChange(of: completed) { _ in update() }
   }
 
   func update() {
