@@ -84,9 +84,9 @@
 				1257FC5125C0B0F100D6A165 /* HomeView.swift */,
 				1257FC5425C0B1AE00D6A165 /* ProjectsView.swift */,
 				121C0CDC25C1EF3700B9C2F3 /* ItemRowView.swift */,
+				121C0CD925C1EA6000B9C2F3 /* EditItemView.swift */,
 				1257FC6425C1623F00D6A165 /* Item-CoreDataHelpers.swift */,
 				1257FC6725C1624F00D6A165 /* Project-CoreDataHelpers.swift */,
-				121C0CD925C1EA6000B9C2F3 /* EditItemView.swift */,
 			);
 			path = Learning;
 			sourceTree = "<group>";
