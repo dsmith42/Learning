@@ -16,6 +16,8 @@
 		122893A525B852010011DD1B /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 122893A425B852010011DD1B /* CloudKit.framework */; };
 		1257FC5225C0B0F100D6A165 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257FC5125C0B0F100D6A165 /* HomeView.swift */; };
 		1257FC5525C0B1AE00D6A165 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257FC5425C0B1AE00D6A165 /* ProjectsView.swift */; };
+		1257FC6525C1623F00D6A165 /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257FC6425C1623F00D6A165 /* Item-CoreDataHelpers.swift */; };
+		1257FC6825C1624F00D6A165 /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257FC6725C1624F00D6A165 /* Project-CoreDataHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		122893A425B852010011DD1B /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		1257FC5125C0B0F100D6A165 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1257FC5425C0B1AE00D6A165 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
+		1257FC6425C1623F00D6A165 /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		1257FC6725C1624F00D6A165 /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				1228939A25B844DF0011DD1B /* DataController.swift */,
 				1257FC5125C0B0F100D6A165 /* HomeView.swift */,
 				1257FC5425C0B1AE00D6A165 /* ProjectsView.swift */,
+				1257FC6425C1623F00D6A165 /* Item-CoreDataHelpers.swift */,
+				1257FC6725C1624F00D6A165 /* Project-CoreDataHelpers.swift */,
 			);
 			path = Learning;
 			sourceTree = "<group>";
@@ -166,10 +172,12 @@
 			files = (
 				1257FC5525C0B1AE00D6A165 /* ProjectsView.swift in Sources */,
 				1228939825B8434A0011DD1B /* Main.xcdatamodeld in Sources */,
+				1257FC6825C1624F00D6A165 /* Project-CoreDataHelpers.swift in Sources */,
 				1228939B25B844DF0011DD1B /* DataController.swift in Sources */,
 				1228938925B841640011DD1B /* ContentView.swift in Sources */,
 				1257FC5225C0B0F100D6A165 /* HomeView.swift in Sources */,
 				1228938725B841640011DD1B /* LearningApp.swift in Sources */,
+				1257FC6525C1623F00D6A165 /* Item-CoreDataHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
